@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+main{
+  display: grid;
+  grid-template-columns: 20% auto;
+}
+.LeftContent{
+  background-color: rgb(38, 38, 38);
+  margin-right: 5%;
+  color: rgb(189, 189, 189);
+  font-family: 'Poppins', sans-serif;
+}
+.Lsec1{
+  display: flex;
+}
+.Lsec2{
+  min-height: 60vh;
+}
+.Lsec1 img{
+  width: 60px;
+  height: 60px;
+  margin: 3vh 1vh 3vh 3vh;
+  border-radius: 10%;
+}
+.Lsec1 div{
+  margin: 3vh 2vh 3vh 1vh;
+  padding-bottom: 1vh;
+  font-size: larger;
+}
+.LeftContent h3{
+  margin: 4vh;
+  text-shadow: 1px 1px 0.5px white;
+  cursor: pointer;
+  width: 80%;
+  height: 6vh;
+}
+
+.Hover:hover{
+  background-color: rgb(89, 89, 89);
+  border-radius: 3%;
+  padding: 1vh 0 0 1vh;
+}
+.LeftContent h3 i{
+  margin-right: 2vh;
+}
+.greater{
+  display: none;
+  position: absolute;
+  top: 5vh;
+  left: 6.3%;
+  cursor: pointer;
+  height: 25px;
+  width: 25px;
+  border: 1px solid black;
+  border-radius: 50%;
+  background-color: black;
+  color: antiquewhite;
+}
+.Less{
+  position: absolute;
+  top: 4.5vh;
+  left: 17.7%;
+  cursor: pointer;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  border: 1px solid black;
+  background-color: black;
+  color: antiquewhite;
+}
+.RightContent{
+  margin-top: 5vh;
+  float: right;
+}
+.MainContent1, .MainContent2{
+  display: grid;
+  grid-template-columns: 52% 40%;
+  margin-bottom: 4vh;
+}
+.Sec11, .Sec12, .Sec21, .Sec22{
+  background-color: #ddeeff1e;
+  box-shadow: 0 0 8px 3px rgb(126, 122, 122);
+  margin-right: 5%;
+  border-radius: 5px;
+}
+.Sec12{
+  max-height: 40vh;
+}
+.Sec11 h2, .Sec12 h2, .Sec21 h2, .Sec22 h2{
+  color: rgb(187, 187, 187);
+  background-color: #2b343d0b;
+  padding: 2vh 0 1vh 2.5vh;
+  font-family: 'Poppins', sans-serif;
+}
+.Sec11Content h3 i{
+  color: rgb(76, 93, 102);
+}
+.Sec11Content, .Sec12Content, .Sec21Content, .Sec22Content{
+  padding: 1vh 3vh 3vh 3vh;
+}
+.Sec11Content h3 span, .Sec22Content h3 span{
+  float: right;
+  color: rgb(65, 64, 64);
+  font-family: 'Poppins', sans-serif;
+}
+h3{
+  color: rgb(172, 172, 172);
+  margin: 2vh 0 1.5vh 0;
+  font-family: 'Poppins', sans-serif;
+}
+.Sec21Boxes{
+  display: flex;
+  justify-content:flex-start;
+}
+.Sec21Boxes h4{
+  border: 1px solid black;
+  margin: 2vh 2vh 2vh 0;
+  padding: 2vh 3vh;
+  border-radius: 7%;
+  box-shadow: 2px 2px 3px grey;
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif;
+}
+.Sec21Content p{
+  font-family: 'Poppins', sans-serif;
+}
+.Sec12Content label{
+  font-family: 'Poppins', sans-serif;
+}
+#defaultIncome, #CheckedIncome{
+  margin: 1vh;
+}
+
+.Increament{
+  transition: ease-in-out 0.3s;
+  font-size: xx-large;
+  text-shadow: 2px 2px 0.5px white;
+}
